@@ -5,7 +5,7 @@ let dana = global.dana
 let pulsa = global.pulsa
 let gopay = global.gopay
 let numberowner = global.numberowner
-let anu = `Hallo User DaniBotz 👋
+let anu = `Hallo User GojoBotz 👋
 ╭──「 *SEWABOT* 」
 ├  1 Minggu : lDR 3.000 (3k)
 ├  1 BULAN : IDR 5.000 (5k)
@@ -39,6 +39,6 @@ wa.me/${numberowner} (Owner)
 }
 handler.help = ['sewadani']
 handler.tags = ['info']
-handler.command = /^(danisewa|sewadani|sewa|sewabot)$/i
+handler.command = /^(gojosewa|sewagojo|sewa|danisewa|sewadani|sewabot)$/i
 
 module.exports = handler
