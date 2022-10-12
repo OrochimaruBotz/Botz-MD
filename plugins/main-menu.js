@@ -43,7 +43,7 @@ const defaultMenu = {
   header: '╭─❏ 『 %category 』 ',
   body: '┃➪ %cmd %islimit %isPremium',
   footer: '┃\n╰───────────────❏\n', 
-  footerText: 'Powered by ᯤ ʀɪᴇʟɢᴀɴs ᴏғᴄ',
+  footerText: 'Powered by ᯤ Humanz',
   after: `
 ╭─❏『  THANKS TO🥀  』
 │ ➪ Allah SWT
@@ -58,6 +58,7 @@ const defaultMenu = {
 │ ➪ RielgansOfc
 │ ➪ Zifabotz_offc1
 │ ➪ DaniOfficial
+│ ➪ Humanz
 ╰───────────────❏
 `,
 }
@@ -314,12 +315,7 @@ let menuu = `╭─❏『 ıll *INFO USER* llı 』
 │ ➪ *Mode : ${global.opts['self'] ? 'Self' : 'public'}*
 │ ➪ *Chat Ban : ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned*
 │ ➪ *User Ban : ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned*
-╰───────────────❏
-   ♡ ㅤ     ❍ㅤ       ⎙ㅤ       ⌲
-
- ➪ *Date  : ${week} ${date}*
- ➪ *Time : ${wib}*
-` 
+╰───────────────❏` 
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `${ucapan()} ${name}`,
@@ -536,7 +532,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            },
              {
              urlButton: {
-               displayText: '☯️GROUP DANIBOTZ☯️', 
+               displayText: '☯️GROUP GOJOBOTZ☯️', 
                url: gc
              }
 
@@ -577,7 +573,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 }
 handler.help = ['Krizyn']
 handler.tags = ['main']
-handler.command = /^(alive|panel|krizyn|zifa|menu|help|\?)$/i
+handler.command = /^(alive|panel|gojo|zifa|menu|help|\?)$/i
 handler.register = true
 handler.owner = false
 handler.mods = false
