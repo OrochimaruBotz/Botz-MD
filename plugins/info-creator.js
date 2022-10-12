@@ -3,16 +3,16 @@ let handler = async (m, {conn}) => {
 const vcard = `BEGIN:VCARD
 VERSION:3.0
 N:;;;
-FN: ᴹᴿ᭄ DaniOffcོ_1ঔৣ꧂
-item.ORG: ᴹᴿ᭄ DaniOffcོ_1ঔৣ꧂
-item1.TEL;waid=6281251549899:6281251549899@s.whatsapp.net
+FN: Humanz
+item.ORG: Humanz
+item1.TEL;waid=6288804947282:6288804947282@s.whatsapp.net
 item1.X-ABLabel:owner selalu ada 
-item2.EMAIL;type=INTERNET: kecedani257@gmail.com
+item2.EMAIL;type=INTERNET: humanzboti11@gmail.com
 item2.X-ABLabel:📧Email
-item3.ADR:;;🎍KANDANGAN;;;;
+item3.ADR:;;🎍Surabaya;;;;
 item3.X-ABADR:ac
 item3.X-ABLabel:asal kota
-item4.URL:https://github.com/Bot-Mdnew
+item4.URL:https://github.com/OrochimaruBotz
 item4.X-ABLabel:Website
 END:VCARD`
 const sentMsg  = await conn.sendMessage(
@@ -24,7 +24,7 @@ const sentMsg  = await conn.sendMessage(
         }
     }
 )
-let dani = 'https://telegra.ph/file/5da3cd5d775775f5e8791.jpg'
+let dani = 'https://telegra.ph/file/d2475a380a985bdb4c603.jpg'
 await conn.send3ButtonImg(m.chat, dani, "*Hai kak👋,  Itu nomor owner gw…*", '📮: jngn di spam kack', 'Source code', '.sc', 'Back', '.menu', 'Donasi', '.donasi', sentMsg)}
 handler.help = ['owner2', 'creator2']
 handler.tags = ['info']
