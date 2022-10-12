@@ -38,15 +38,15 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     itemCount : 20290,
     status: 1,
     surface : 1,
-    message: `❏ DaniBotz`, 
+    message: `❏ GojoBotz`, 
     orderTitle: `▮Menu ▸`,
-    thumbnail: await (await fetch('https://telegra.ph/file/ad0f27b9d5e469827e654.jpg')).buffer(), //Gambarnye
+    thumbnail: await (await fetch('https://telegra.ph/file/d2475a380a985bdb4c603.jpg')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
     }
     }
     }
   await conn.send3ButtonImg(m.chat, await (await fetch(thumb)).buffer(), `
-*PLAY DANIBOTZ*
+*PLAY GOJOBOTZ*
 ├●───────────────┤
 ◁ㅤ ❚❚ㅤ▷
 ┏┉━━━━━━━━━━━❏
