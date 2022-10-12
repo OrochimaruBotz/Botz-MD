@@ -2,13 +2,13 @@ const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessa
 let fs = require('fs')
 let handler = async (m) => {
 let krizyn = `
-Hallo User DaniBotz 👋
+Hallo User GojoBotzMD 👋
 *Kalian Bisa Mendukung Saya Agar Bot Ini Tetap Up To Date Dengan Cra:*
 
 ╭─❏ *『 DONASI 』*
-│ ➪ Dana : 081251549899
-│ ➪ Gopay : 081352848936
-│ ➪ Ovo : 081352848946
+│ ➪ Dana : 088804947282
+│ ➪ Gopay : 088804947282
+│ ➪ Ovo : 088804947282
 ╰───────────────❏
 
 BERAPAPUN DONASI KALIAN AKAN SANGAT BERARTI 👍
@@ -30,7 +30,7 @@ TERIMAKASIH  BUAT YANG SUDAH MAU BERDONASI😉
            },
                 {
                urlButton: {
-               displayText: '😼Owner DaniBotz',
+               displayText: '😼Owner GojoBotz',
                url: nomer
              }
 
