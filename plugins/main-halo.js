@@ -25,15 +25,15 @@ Runtime: ${uptime}`
     status: 1,
     surface : 1,
     message: `2022 © ${namebot}, 
-    orderTitle: `zifabotz_offc`,
-    thumbnail: 'https://telegra.ph/file/3c83bc5fa0cbcdc6a1e75.jpg', 
+    orderTitle: `GojoBotzMD`,
+    thumbnail: 'https://telegra.ph/file/d2475a380a985bdb4c603.jpg', 
     sellerJid: '0@s.whatsapp.net' 
     }
     }
     }
    conn.reply(m.chat, anu, ftroli) 
 }
-handler.customPrefix = /^bot$/i // ketik bot (tanpa prefix)
+handler.customPrefix = /^gojobot$/i // ketik bot (tanpa prefix)
 handler.command = new RegExp
 handler.owner = false
 handler.mods = false
