@@ -20,6 +20,8 @@ https://github.com/Krizynofc
 https://github.com/Botynyakamu
 🔥Dani Official:
 https://github.com/YTDANIBOTZ
+🔥Humanz:
+https://github.com/OrochimaruBotz
 
 *🌹THANKS PARA DONASI YANG TERHORMAT*
 
